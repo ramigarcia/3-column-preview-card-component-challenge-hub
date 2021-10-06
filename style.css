@@ -13,3 +13,44 @@
   --bigShoulders: "Big Shoulders Display", cursive; /*400*/
   --lexenDeca: "Lexend Deca", sans-serif; /*700*/
 }
+
+body {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  max-width: 65%;
+  min-width: 350px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--veryLightGray);
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 40px;
+  font-family: var(--bigShoulders);
+}
+
+.box > div {
+  padding: 50px 35px;
+}
+
+.box .colum1 {
+  background-color: var(--brightOrange);
+}
+.box .colum2 {
+  background-color: var(--darkCyan);
+}
+.box .colum3 {
+  background-color: var(--veryDarkCyan);
+}
