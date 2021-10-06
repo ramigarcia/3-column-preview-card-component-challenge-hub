@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brightOrange: rgb(227, 136, 38);
+  --darkCyan: rgb(0, 105, 112);
+  --veryDarkCyan: rgb(0, 66, 65);
+  --tranParentWhite: rgba(255, 255, 255, 0.75); /*(paragraphs)*/
+  --veryLightGray: rgb(242, 242, 242); /* (background, headings, buttons) */
+  --bigShoulders: "Big Shoulders Display", cursive; /*400*/
+  --lexenDeca: "Lexend Deca", sans-serif; /*700*/
+}
